@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo...</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="container text-center">
+    <h1>To Do do...do... .</h1>
+</header>
+
+<main class="container">
+    <section class="row">
+        <div class="col-sm-12 col-md-12 col-lg-5">
+            <form class="input-group mb-3">
+                <input id="inputValue" type="text" class="form-control" placeholder="Add your task" required>
+                <div class="input-group-prepend addTaskButton">
+                    <button id="addTask" class="input-group-text">ADD TASK</button>
+                </div>
+
+                <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                    <input id="dateTask" type="date" class="form-control datetimepicker-input" data-target="#datetimepicker1"
+                           placeholder="Finish up" required/>
+                </div>
+            </form>
+            <div class="d-flex justify-content-between">
+                <button class="btn btn-secondary allTask">All Tasks</button>
+                <button class="btn btn-secondary activeTask">Active Tasks</button>
+                <button class="btn btn-secondary doneTask">Done Tasks</button>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7">
+            <form>
+                <ul class="list-group">
+
+                </ul>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+</html>
